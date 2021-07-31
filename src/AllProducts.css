@@ -1,0 +1,38 @@
+.allproducts{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.allproducts__sidebar{
+    height: 100%;
+    width: 300px;
+}
+
+.allproducts__list{
+    padding: 10px;
+    width: 100%;
+    height: 20px;
+   list-style: none;
+   flex-direction: column;
+   cursor: pointer;
+   font-weight: 700;
+   transition: 0.5s linear;
+}
+
+.allproducts__list:hover{
+    color: #FFA41C;
+}
+
+.allproducts__sideright{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+}
+
+
+.allproducts__sideright>img{
+    width: 1000px;
+}
+
+
